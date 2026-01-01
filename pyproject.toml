@@ -1,0 +1,21 @@
+[project]
+name = "richmd"
+version = "0.1.0"
+description = "Markdown viewer using rich library"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "CC0-1.0"}
+repository = "https://github.com/7shi/richmd"
+dependencies = [
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+richmd = "richmd:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["richmd"]
