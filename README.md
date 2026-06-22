@@ -34,3 +34,15 @@ uv sync
 ```bash
 richmd <markdown_file>
 ```
+
+Read from stdin:
+
+```bash
+cat <markdown_file> | richmd
+```
+
+Show version:
+
+```bash
+richmd --version
+```
