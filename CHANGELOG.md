@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-06-23
+
 ### Changed
 - Added `--version` option to display the package version
 - Support reading from stdin when no file is specified
