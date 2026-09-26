@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-26
+
 ### Added
 - Pipe the output through a pager (`$PAGER`, default `less` with `LESS=FRX`) when stdout is a terminal, like `git`, with colors always emitted. Use `--no-pager` (implied when stdout is piped or redirected) to print directly
 
