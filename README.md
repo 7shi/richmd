@@ -41,6 +41,12 @@ Read from stdin:
 cat <markdown_file> | richmd
 ```
 
+Like `git`, the output is piped through a pager when stdout is a terminal, with colors always emitted. The pager is taken from `$PAGER` (default `less`); if `LESS` is unset, it is set to `FRX` so short output is printed without entering the pager and colors are shown. Set `PAGER=cat` to disable the pager (colors are still emitted). Pass `--no-pager` to print directly without the pager; rich then decides whether to use colors. This is implied when stdout is piped or redirected.
+
+```bash
+richmd --no-pager <markdown_file>
+```
+
 Show version:
 
 ```bash
