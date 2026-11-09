@@ -2,6 +2,9 @@
 
 Markdown viewer using rich library. Displays Markdown files with beautiful formatting in the console.
 
+> [!NOTE]
+> This project is no longer under development. For viewing Markdown in the terminal, [leaf](https://github.com/rivolink/leaf) is recommended instead.
+
 ## Requirements
 
 - Python >= 3.10
